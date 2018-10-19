@@ -1,0 +1,43 @@
+body {
+    background-image: url(img/ODRADI0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 25rem 8rem 0rem 8rem;
+}
+
+.green{
+    color:#00FA9A;
+}
+
+.yellow{
+    color:#FFFF00;
+    box-shadow: 2px 0px 86px 6px rgba(255,255,0,0.9);
+}
+
+.container div  {
+    width: 50px;  
+    height: 50px; 
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    background-image: url(img/transparent-black.png);
+    background-size: cover; 
+}
+
+.container span{
+    text-align: center;
+}
